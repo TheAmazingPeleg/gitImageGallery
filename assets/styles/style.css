@@ -1,0 +1,56 @@
+*{
+	font-family: "Assistant";
+}
+
+body {
+	background-image: url('../images/bg.jpg');
+    background-repeat: repeat;
+    background-size: 720px 360px;
+	color: white;
+    margin: 0px;
+}
+.header {
+	text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0px;
+	background-image: url('../images/black60.png');
+}
+img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+img:hover {
+    width: 320px;
+    height: 220px;
+    margin: 0px;
+    transition: 0.3s;
+}
+.gallery {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+    flex-wrap: wrap;
+}
+.content {
+    position: fixed;
+    left: 0px;
+    top: 79px;
+    width: 100vw;
+    height: calc(100vh - 79px);
+	background-image: url('../images/black60.png');
+    background-size: 100% 100%;
+    text-align: center;
+}
+.content button {
+    position: fixed;
+    right: 5px;
+}
+#close {
+    font-size: 2em;
+    color: white;
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+}
